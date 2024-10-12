@@ -34,5 +34,6 @@ public class JournalEntryService {
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+
     }
 }
