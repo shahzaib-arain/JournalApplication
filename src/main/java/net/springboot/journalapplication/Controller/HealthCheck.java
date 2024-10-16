@@ -10,11 +10,10 @@ import org.springframework.web.bind.annotation.*;
 public class HealthCheck {
 
 
-    @GetMapping
+    @GetMapping("/Welcome")
     public String healthCheck(){
         return "Your Spring boot application is running perfectly";
     }
-    
 
 
 }
